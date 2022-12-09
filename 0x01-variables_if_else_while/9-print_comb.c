@@ -13,10 +13,10 @@ int main(void)
 	 * then if number is 0-8, add comma plus space
 	 * else if number is 9, add only space
 	 */
- for (num = '0'; num <= '9'; num++)
- if (num >= '0')
- {
-	       putchar(num);
+for (num = '0'; num <= '9'; num++)
+if (num >= '0')
+{
+putchar(num);
 if (num >= '0' && num <= '8')
 {
 putchar(',');
