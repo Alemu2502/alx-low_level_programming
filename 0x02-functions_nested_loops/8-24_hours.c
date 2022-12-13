@@ -31,7 +31,6 @@ while (b2 <= 5)
 	{
 	  b1 = 0;
 while (b1 <= 9)
-			{
 _putchar('0' + a2);
 _putchar('0' + a1);
 _putchar(':');
