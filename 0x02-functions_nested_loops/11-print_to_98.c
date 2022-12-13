@@ -10,12 +10,12 @@ void print_to_98(int n)
 {
 while (n < 98)
 	{
-	printf("%i, ',' n");
+	printf("%int, ',' n");
 	n++;
 	}
 while (n > 98)
 	{
-	printf("%i, ',' n");
+	printf("%int, ',' n");
 	n--;
 	}
 	printf("98");
