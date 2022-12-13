@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * jack_bauer - count 24 hours
  *
  * Return: void
  */
+
 void jack_bauer(void)
 {
 	int hour, minute;
