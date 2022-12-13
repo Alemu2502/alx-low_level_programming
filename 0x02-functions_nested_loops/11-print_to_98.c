@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.c"
 #include <stdio.h>
 /**
  * print_to_98 - print to 98
