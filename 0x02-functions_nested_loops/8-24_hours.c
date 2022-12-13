@@ -15,7 +15,6 @@ int b2;
 int c = 9;
 
 a2 = 0;
-
 while (a2 <= 2)
 {
 	if (a2 == 2)
@@ -25,12 +24,13 @@ while (a2 <= 2)
 	}
 	a1 = 0;
 while (a1 <= c)
-	{
+{
 	b2 = 0;
 while (b2 <= 5)
-	{
+{
 	  b1 = 0;
 while (b1 <= 9)
+{
 _putchar('0' + a2);
 _putchar('0' + a1);
 _putchar(':');
