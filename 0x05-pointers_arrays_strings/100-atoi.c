@@ -14,7 +14,7 @@ int _atoi(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (is[i] == '-')
+		if (s[i] == '-')
 			sig = sig * -1;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
