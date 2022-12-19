@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * rest_to_98 - rest argument to 98
+ * reset_to_98 - rest argument to 98
+ * Description: reset_to_98
  * @n: pointer
  * Return: void
  */
