@@ -3,7 +3,7 @@
 /**
  * *cap_string - capitalize words
  * @str: pointer
- * Return: capitalzied string
+ * Return: capitalized string
  */
 
 char *cap_string(char *str)
@@ -14,6 +14,7 @@ char *cap_string(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		flag = 0;
+
 		if (i == o)
 		{
 			flag = 1;
