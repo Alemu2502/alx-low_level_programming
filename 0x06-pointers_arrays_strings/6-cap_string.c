@@ -26,7 +26,6 @@ char *cap_string(char *str)
 				if (str[i - 1] == sep[ii])
 				{
 					flag = 1;
-
 					break;
 				}
 			}
