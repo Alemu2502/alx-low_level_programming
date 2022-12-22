@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * *leet - transformed to leet
+ * *leet - transform to leet
  * @s: char array string type
  * Return: s transformed
  */
 
 char *leet(char *s)
 {
-int i, ii;
-	 char s1[] = "aeotl";
+	int i, ii;
+	char s1[] = "aeotl";
 	char s1[] = "AEOTL";
 	char s2[] = "43071";
 
