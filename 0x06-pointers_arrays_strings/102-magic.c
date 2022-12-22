@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,12 +8,12 @@
 
 int main(void)
 {
-	int n;
-	int a[5];
-	int *p;
+	int a;
+	int n[5];
+	int *b;
 
-	a[2] = 1024;
-	p = &n;
+	n[2] = 1024;
+	b = &a;
 	/*
 	 * write your line of code here...
 	 * Remember:
@@ -23,8 +22,8 @@ int main(void)
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
-*(p + 5) = 98;
+*(b + 5) = 98;
 /* ...so that this prints 98\n */
-printf("a[2] = %d\n", a[2]);
+printf("n[2] = %d\a", n[2]);
 return (0);
 }
