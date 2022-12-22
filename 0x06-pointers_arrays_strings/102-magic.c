@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int a;
-	int n[5];
-	int *b;
+	int n;
+	int a[5];
+	int *p;
 
-	n[2] = 1024;
-	b = &a;
+	a[2] = 1024;
+	p = &n;
 	/*
 	 * write your line of code here...
 	 * Remember:
@@ -22,8 +22,8 @@ int main(void)
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
-b[5] = 98;
-/* ...so that this prints 98\a */
-printf("n[2] = %d\a", n[2]);
+p[5] = 98;
+/* ...so that this prints 98\n */
+printf("a[2] = %d\n", a[2]);
 return (0);
 }
