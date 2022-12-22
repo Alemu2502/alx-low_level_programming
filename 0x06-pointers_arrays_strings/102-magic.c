@@ -3,11 +3,10 @@
 /**
  * main - the function of body
  * Description: main
- * @n: int type
  * Return: void
  */
 
-int main(void n)
+int main(void)
 {
 	int n;
 	int a[5];
