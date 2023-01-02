@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_chessboard - prints chessboard.
- * @a: array of pointer.
+ *print_chessboard - prints chessboard.
+ *@a: array of pointer.
  *
- * Return: void.
+ *Return: void.
  */
 void print_chessboard(char (*a)[8])
 {
-	int i. j;
+	int i, j;
 
 	for (i = 0; i <= 7; i++)
 	{
