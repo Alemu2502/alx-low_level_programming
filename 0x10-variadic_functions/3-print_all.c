@@ -20,11 +20,11 @@ void print_char(va_list *args)
 
 /**
  * print_integer - prints an integer
- * @args: the argument list
+ * @list: the argument list
  */
-void print_integer(va_list *args)
+void print_integer(va_list list)
 {
-	printf("%d", va_arg(*args, int));
+	printf("%d", va_arg(list, int));
 }
 
 
@@ -32,11 +32,11 @@ void print_integer(va_list *args)
 
 /**
  * print_float - prints a float
- * @args: the argument list
+ * @list: the argument list
  */
-void print_float(va_list *args)
+void print_float(va_list list)
 {
-	printf("%f", va_arg(*args, double));
+	printf("%f", va_arg(list, double));
 }
 
 
@@ -44,11 +44,11 @@ void print_float(va_list *args)
 
 /**
  * print_string - prints a string
- * @args: the argument list
+ * @list: the argument list
  */
-void print_string(va_list *args)
+void print_string(va_list list)
 {
-	char *str = va_arg(*args, char*);
+	char *str = va_arg(list, char *);
 
 	if (!str)
 		str = "(nil)";
