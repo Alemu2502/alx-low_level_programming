@@ -90,7 +90,7 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", sep);
 				(formaters + j)->printer(&ap);
-				sep = ", ";
+				sep = " , ";
 				break;
 			}
 			j++;
