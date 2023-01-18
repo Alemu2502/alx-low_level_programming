@@ -68,7 +68,7 @@ void print_all(const char * const format, ...)
 	char *sep = "";
 	int i = 0, j;
 
-	fh format[] = {
+	fh formaters[] = {
 		{'c', print_char},
 		{'i', print_integer},
 		{'f', print_float},
@@ -77,7 +77,7 @@ void print_all(const char * const format, ...)
 
 	va_start(ap, format);
 
-	while (form && form[i] != '\0')
+	while ((form && form[i]) != '\0')
 	{
 		j = 0;
 		while (j < 4)
