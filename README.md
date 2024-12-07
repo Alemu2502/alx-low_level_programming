@@ -8,7 +8,7 @@ Table of Contents
 
 # Overview
 
-This repository is part of the ALX System Engineering and DevOps curriculum. It includes various exercises and projects that cover essential concepts and skills in C programming, including debugging, dynamic memory allocation, linked lists, pointers, bit manipulation, recursion, preprocessors, hash tables, variadic functions, structures, and more.
+This repository is part of the alx-low_level_programming. It includes various exercises and projects that cover essential concepts and skills in C programming, including debugging, dynamic memory allocation, linked lists, pointers, bit manipulation, recursion, preprocessors, hash tables, variadic functions, structures, and more.
 
 # Features
 
@@ -73,4 +73,4 @@ Run the program
 
 # Conclusion
 
-This repository showcases the projects and exercises from the ALX System Engineering and DevOps course, focusing on various core concepts of C programming. By working through these projects, students gain practical experience with different aspects of low-level programming, preparing them for real-world system engineering challenges.
+This repository showcases the projects and exercises from the alx-low_level_programming course, focusing on various core concepts of C programming. By working through these projects, students gain practical experience with different aspects of low-level programming, preparing them for real-world system engineering challenges.
