@@ -8,7 +8,7 @@ Table of Contents
 
 # Overview
 
-This repository is part of the alx-low_level_programming. It includes various exercises and projects that cover essential concepts and skills in C programming, including debugging, dynamic memory allocation, linked lists, pointers, bit manipulation, recursion, preprocessors, hash tables, variadic functions, structures, and more.
+Thes alx-low_level_programming repository includes various exercises and projects that cover essential concepts and skills in C programming, including debugging, dynamic memory allocation, linked lists, pointers, bit manipulation, recursion, preprocessors, hash tables, variadic functions, structures, and more.
 
 # Features
 
